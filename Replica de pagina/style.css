@@ -1,0 +1,153 @@
+* {
+  font-family: "Bahnschrift";
+}
+
+.margen {
+  margin-top: 100px;
+
+}
+
+
+.contenedor {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  height: fit-content;
+  width: fit-content;
+}
+
+.producto {
+  width: 250px;
+  height: 200px;
+  background-color: #FFE6E6;
+  padding: 15px 15px 15px 15px;
+  box-shadow: 0px 3px 4px 3px rgba(0, 0, 0, 0.425);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 5px;
+  margin-bottom: 60px;
+
+
+}
+
+.imagen {
+  width: 100%;
+  height: 50%;
+  background-color: #b1a0bd;
+
+}
+
+.textos {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.titulo-producto {
+  font-weight: 800;
+  font-size: 36px;
+  color: #6858c0;
+}
+
+.descripcion-producto {
+  margin: 0 0 0 0;
+  font-weight: 200;
+  color: #0e0d0d;
+}
+
+
+
+/*boton*/
+.añadir {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.boton-añadir {
+  background-color: rgb(250, 121, 149);
+  border: none;
+  width: 75px;
+  height: 30px;
+  border-radius: 20px;
+  margin-top: -10px;
+  color: white;
+  transition: all ease-in-out 300ms;
+}
+
+.boton-añadir:hover {
+  background-color: rgb(228, 85, 116);
+  transform: scale(1.1);
+}
+
+
+
+.fila {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+
+
+/*barra de navegacion*/
+nav {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  background: #f1bbe0;
+  font-family: "Bahnschrift";
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav .logo {
+  font-family: "unispace";
+  font-size: 25px;
+  font-weight: black;
+}
+
+nav .barnav {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  margin-right: 30px;
+}
+
+nav .barnav div {
+  padding: 10px 20px;
+}
+
+nav .barnav div:hover {
+  cursor: pointer;
+  background: #7469B6;
+}
+
+.contenido {
+  height: 1100px;
+  margin-top: 60px;
+}
+
+
+
+/*cuadro añadido (sin terminar)*/
+.elemento {
+  width: 250px;
+  height: 200px;
+  background-color: #FFE6E6;
+  padding: 15px 15px 15px 15px;
+  box-shadow: 0px 3px 4px 3px rgba(0, 0, 0, 0.425);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 5px;
+  margin-bottom: 60px;
+}
+
+.elemento>.nombre-elemento {
+  font-family: "Bahnschrift";
+  font-weight: 800;
+  font-size: 36px;
+  color: #6858c0;
+}
